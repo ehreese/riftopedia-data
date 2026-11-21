@@ -1,6 +1,6 @@
-# riftdex-data — working rules
+# riftopedia-data — working rules
 
-This is a **public** repository. It holds one scheduled job and the price file it publishes for the Riftdex app. Read this file before doing any work here.
+This is a **public** repository. It holds one scheduled job and the price file it publishes for the Riftopedia app. Read this file before doing any work here.
 
 ## Hard rules
 

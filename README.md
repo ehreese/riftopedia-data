@@ -1,10 +1,10 @@
-# riftdex-data
+# riftopedia-data
 
-Daily market prices for Riftbound trading cards, published as one small JSON file for the Riftdex app, with a monthly price history for price graphs.
+Daily market prices for Riftbound trading cards, published as one small JSON file for the Riftopedia app, with a monthly price history for price graphs.
 
 ## What this is
 
-A scheduled job publishes once a day, soon after TCGCSV's daily update: it reads the Riftbound price files from [TCGCSV](https://tcgcsv.com) (a daily export of TCGplayer's catalogue), and writes `prices.json` to this repository. The Riftdex app downloads that one file at most once a day.
+A scheduled job publishes once a day, soon after TCGCSV's daily update: it reads the Riftbound price files from [TCGCSV](https://tcgcsv.com) (a daily export of TCGplayer's catalogue), and writes `prices.json` to this repository. The Riftopedia app downloads that one file at most once a day.
 
 The job exists so that phones never contact TCGCSV directly: TCGCSV asks that requests not be made from user-facing applications, and that clients sync at most once every 24 hours.
 
@@ -15,7 +15,7 @@ The job exists so that phones never contact TCGCSV directly: TCGCSV asks that re
 Fetch it from:
 
 ```
-https://raw.githubusercontent.com/ehreese/riftdex-data/main/prices.json
+https://raw.githubusercontent.com/ehreese/riftopedia-data/main/prices.json
 ```
 
 ## The price history
@@ -145,4 +145,4 @@ By default it covers 31 October 2025 to the day of the published `prices.json`; 
 ## Credits and legal
 
 - Prices come from TCGplayer by way of TCGCSV. This project is not affiliated with either.
-- Riftdex is an unofficial fan project. It is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riftbound and League of Legends are trademarks or registered trademarks of Riot Games, Inc.
+- Riftopedia is an unofficial fan project. It is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riftbound and League of Legends are trademarks or registered trademarks of Riot Games, Inc.
