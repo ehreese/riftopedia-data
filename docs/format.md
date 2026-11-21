@@ -1,6 +1,6 @@
 # `prices.json` format
 
-Version 1. This document is the contract between the daily job and the Riftdex app.
+Version 1. This document is the contract between the daily job and the Riftopedia app.
 
 ## Example
 
@@ -33,7 +33,7 @@ Version 1. This document is the contract between the daily job and the Riftdex a
 
 Each row is `[productId, normal, foil]`:
 
-- `productId` — TCGplayer product id (integer). The same id the Riftdex catalogue uses for a printing.
+- `productId` — TCGplayer product id (integer). The same id the Riftopedia catalogue uses for a printing.
 - `normal` — market price of the Normal finish, or `null` if there is none.
 - `foil` — market price of the Foil finish, or `null` if there is none.
 
@@ -56,8 +56,8 @@ Rules:
 Version 1. Past market prices, one file per month, for drawing price graphs. The files sit in `history/` next to `prices.json`:
 
 ```
-https://raw.githubusercontent.com/ehreese/riftdex-data/main/history/index.json
-https://raw.githubusercontent.com/ehreese/riftdex-data/main/history/2026-10.json
+https://raw.githubusercontent.com/ehreese/riftopedia-data/main/history/index.json
+https://raw.githubusercontent.com/ehreese/riftopedia-data/main/history/2026-10.json
 ```
 
 ## `history/index.json`

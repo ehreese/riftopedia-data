@@ -56,7 +56,7 @@ import price_history as ph  # noqa: E402
 
 BASE_URL = "https://tcgcsv.com"
 CATEGORY_ID = 89  # Riftbound
-USER_AGENT = "riftdex-data/1.0 (+https://github.com/ehreese/riftdex-data)"
+USER_AGENT = "riftopedia-data/1.0 (+https://github.com/ehreese/riftopedia-data)"
 
 MIN_INTERVAL = 0.2  # seconds between the start of two requests (TCGCSV asks for >= 0.15)
 TIMEOUT = 30  # seconds per request
